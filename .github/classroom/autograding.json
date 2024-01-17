@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Find",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_find.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Count",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_count.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Delete",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_delete.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Delete At",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_deleteAt.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Find",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_find.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Find sorted",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_findSorted.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Insert",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_insert.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Print",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_print.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Replacement",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_replaceItem.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Sort",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_sort.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
