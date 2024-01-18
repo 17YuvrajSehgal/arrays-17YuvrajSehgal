@@ -3,16 +3,6 @@
 # the most commonly used data structure for many reasons.
 # First, we look at the basics of how data is inserted, searched, and deleted from arrays.
 # Then, we look how the data can be stored in ascending (or descending) key order. This arrangement makes possible a fast way of searching for a data item: the binary search.
-import test_append
-import test_count
-import test_delete
-import test_deleteAt
-import test_find
-import test_findSorted
-import test_insert
-import test_print
-import test_replaceItem
-
 
 # Exercise 1: implement a function that iterates through the array and prints every time in the array
 def printArray(array):
@@ -122,21 +112,21 @@ def findSortedArray(array, item):
 
     return -1
 
-if __name__ == '__main__':
-    test_append.test_append()
-    test_count.test_count()
-    test_delete.test_delete()
-    test_deleteAt.test_delete_at()
-    test_deleteAt.test_delete_at2()
-    test_deleteAt.test_delete_at3()
-    test_find.test_find()
-    test_find.test_find2()
-    test_findSorted.test_find_sorted()
-    test_findSorted.test_find_sorted2()
-    test_insert.test_insert()
-    #test_print.test_print()
-    test_replaceItem.test_count()
-    test_replaceItem.test_count2()
-    test_replaceItem.test_count3()
-    test_findSorted.test_find_sorted()
-    test_findSorted.test_find_sorted2()
+# if __name__ == '__main__':
+#     test_append.test_append()
+#     test_count.test_count()
+#     test_delete.test_delete()
+#     test_deleteAt.test_delete_at()
+#     test_deleteAt.test_delete_at2()
+#     test_deleteAt.test_delete_at3()
+#     test_find.test_find()
+#     test_find.test_find2()
+#     test_findSorted.test_find_sorted()
+#     test_findSorted.test_find_sorted2()
+#     test_insert.test_insert()
+#     test_print.test_print()
+#     test_replaceItem.test_count()
+#     test_replaceItem.test_count2()
+#     test_replaceItem.test_count3()
+#     test_findSorted.test_find_sorted()
+#     test_findSorted.test_find_sorted2()
